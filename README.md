@@ -78,7 +78,6 @@ v tomto případě důležité je využití proměnné `$PWD`, která obsahuje i
 
 ## 6. Krok aplikace spuštěna
 Tímto jste ůspěšně spustili aplikaci pomocí Docker engine, v případě dotazů, dodatků nebo problému mě neváhejte kontaktovat pomocí emailu, dále dávám k dispozici pár odkazů:
-## Zdroje
 
 - [Docker Get Started](https://docs.docker.com/get-started/)
 - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
