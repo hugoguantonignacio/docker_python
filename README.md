@@ -1,7 +1,7 @@
 # Jak spustit python aplikaci pomocí Docker engine
 
 ## 1. Krok
-První je dobré se zamyslet, zdali je deployment dané aplikace pomocí Docker engine vhodné, většinou jde o aplikace určené pro spoštění na serverech, jako například webové aplikace, aplikace pro IoT nebo databáze, Docker není vhodný pro desktopové aplikace pro koncové uživatele, nebo pro aplikace kde je potřeba "low-level" přístup k hardwaru.
+První je dobré se zamyslet, zdali je deployment dané aplikace pomocí Docker engine vhodné, většinou jde o aplikace určené pro spoštění na serverech, jako například webové aplikace, aplikace pro IoT nebo databáze, Docker není vhodný pro desktopové aplikace pro koncové uživatele, nebo pro aplikace kde je potřeba "low-level" přístup k hardwaru a vysoký výkon.
 ## 2. Krok - Python skript
 Poté co jsme se rozhodli, že docker je ideálním řešením pro deployment, začneme přemýšlet nad "architekturou" kontejneru, například u webové aplikace:
 1. ### Dependencies
@@ -37,3 +37,6 @@ FROM python:3
 WORKDIR
 
 ```
+
+sudo docker build -t aplikace src/.
+sudo docker run -it -p 5000:5000 -v "$PWD/data:/usr/src/app/volume" aplikace
