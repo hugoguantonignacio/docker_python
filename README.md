@@ -24,7 +24,7 @@ hlavním rozdílem je formát zapisování
 ## 3. Krok složka pro aplikaci
 Zdůvodu organizace si vytvoříme složku, která obsahuje všechno nutné ke spuštění aplikace. 
 ```
-application
+src
 |
 └─ skript.py
 └─ Dockerfile
