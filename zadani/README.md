@@ -4,5 +4,5 @@ V této složce se nachází jednoduchá webová aplikace, která zobrazuje posl
 <ol>
   <li>Aplikace bude přístupná z portu 88</li>
   <li>Token pro golemio API bude programu zpřístupněn pomocí Docker volume</li>
-  <li>aplikace bude v git repozitáři se správným .gitignore</li>
+  <li>Aplikace bude v git repozitáři se správným .gitignore</li>
 </ol> 
