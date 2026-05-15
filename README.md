@@ -86,5 +86,5 @@ Tímto jste ůspěšně spustili aplikaci pomocí Docker engine, v případě do
 - [Flask documentation](https://flask.palletsprojects.com/en/latest/)
 - [pip requirements format](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 
-- [TEST](https://docs.google.com/forms/d/1kmmicNX4Hm51vz2Je-lnrL001vNjCvFI6wu_ETxaVUk/edit)
+
 
